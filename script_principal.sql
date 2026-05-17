@@ -12,9 +12,9 @@
 CREATE DATABASE RefurbConsolas;
 GO
 
--- ============================
+-- ======================
 -- 1. TABLAS DE CATÁLOGO
--- ============================
+-- ======================
 CREATE TABLE Modelos (
     ModeloID    INT IDENTITY(1,1) PRIMARY KEY,
     Nombre      VARCHAR(50)  NOT NULL,
