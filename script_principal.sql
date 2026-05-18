@@ -364,7 +364,7 @@ EXEC sp_addextendedproperty
     @level1type = N'TABLE',  @level1name = 'Consolas',
     @level2type = N'COLUMN', @level2name = 'CostoAdquisicion';
 
--- (Puedes añadir más descripciones a tu gusto)
+-- (Puedo añadir más descripciones a mi gusto)
 GO
 
 -- =============================
@@ -450,10 +450,10 @@ INSERT INTO Valoraciones (ConsolaID, FechaValoracion, PrecioEstimado, Notas) VAL
     (2, '2024-02-25', 80.00, '2DS OG restaurada');
 GO
 
--- ==============================================================
+-- =============================================================
 -- 9. SCRIPT DE LIMPIEZA (RESET COMPLETO)
 --    Descomenta y ejecuta solo cuando quiero volver a empezar.
--- ==============================================================
+-- =============================================================
 /*
 DROP TRIGGER IF EXISTS trg_ActualizarStock_Compra;
 DROP TRIGGER IF EXISTS trg_ActualizarStock_Reparacion;
