@@ -17,7 +17,7 @@ Base de datos relacional desarrollada en Microsoft SQL Server para gestionar el 
 ## Instrucciones de uso
 1. Abrir SSMS y conectarse a una instancia de SQL Server.
 2. Ejecutar el script `script_principal.sql` para crear la base de datos `RefurbConsolas` y llenarla con datos de ejemplo.
-3. Utilizar el script `consultas_prueba.sql` para verificar el funcionamiento.
+3. Utilizar el script `consultas_de_prueba.sql` para verificar el funcionamiento.
 
 ## Ejemplos de consultas incluidas
 - Consolas con su estado actual
